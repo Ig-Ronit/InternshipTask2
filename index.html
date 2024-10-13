@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page</title>
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">My E-Store</div>
+      <input type="text" class="search-bar" placeholder="Search..." />
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="cart-icon">🛒 (0)</div>
+    </header>
+
+    <main class="product-container">
+      <div class="product-images">
+        <div class="main-image">
+          <img src="Images/PS5_Main.jpg" alt="Product Image" />
+        </div>
+        <div class="thumbnail-images">
+          <img id="thumb1" src="Images/PS5_2nd.jpg" alt="Thumbnail Image 1" />
+          <img id="thumb2" src="Images/PS5_3rd.jpg" alt="Thumbnail Image 2" />
+          <img id="thumb3" src="Images/PS5_4th.jpg" alt="Thumbnail Image 3" />
+        </div>
+      </div>
+
+      <div class="product-details">
+        <h1 class="product-title">Sony PlayStation 5 Digital Edition (slim)</h1>
+        <div class="price">49999 Rs</div>
+        <div class="rating">⭐⭐⭐⭐⭐ (1500 reviews)</div>
+        <p class="short-description">
+          The Sony PlayStation 5 Digital Edition (Slim) is a compact, disc-free
+          console offering powerful performance, stunning graphics, and fast
+          load times. With access to a vast library of digital games, it’s
+          perfect for gamers who prefer a sleek design and digital downloads.
+        </p>
+        <button class="read-more">Read More</button>
+
+        <div class="features">
+          <h3>Key Features:</h3>
+          <ul>
+            <li>
+              Compact Design: Sleeker and smaller profile for easy placement in
+              any setup.
+            </li>
+            <li>
+              Disc-Free Gaming: Exclusively digital, allowing for faster
+              downloads and no physical media.
+            </li>
+            <li>
+              Powerful Performance: Custom SSD for ultra-fast load times and
+              seamless gameplay.
+            </li>
+            <li>
+              Stunning Graphics: Supports 4K resolution and ray tracing for
+              realistic visuals.
+            </li>
+            <li>
+              DualSense Controller: Enhanced haptic feedback and adaptive
+              triggers for immersive gaming.
+            </li>
+            <li>
+              Game Library Access: Compatible with a vast selection of digital
+              titles and PlayStation Plus services.
+            </li>
+            <li>
+              Backward Compatibility: Play many PS4 games with improved
+              performance.
+            </li>
+            <li>
+              Media Capabilities: Stream movies and shows with various apps
+              available on the console.
+            </li>
+            <li>
+              3D Audio: Enhanced audio experience for greater immersion in
+              games.
+            </li>
+          </ul>
+        </div>
+
+        <div class="purchase-options">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" value="1" min="1" />
+
+          <!-- <label for="color">Color:</label>
+          <select id="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+          </select> -->
+
+          <button class="add-to-cart">Add to Cart</button>
+          <p class="free-shipping">Free shipping on orders over 499 Rs!</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#">About Us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">FAQs</a>
+      </div>
+      <div class="social-media">
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+      <form class="newsletter">
+        <input type="email" placeholder="Subscribe to our newsletter" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </footer>
+  </body>
+</html>
